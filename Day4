@@ -1,0 +1,8 @@
+CREATE DATABASE master_data;
+CREATE TABLE Customer(cus_id int,cus_name varchar(20));
+CREATE TABLE Orders(order_id int,order_name varchar(20));
+CREATE TABLE Product(proc_id int,proc_name varchar(20));
+
+INSERT INTO Customer VALUES(1,'Yash');
+INSERT INTO Orders VALUES(1,'Office Order');
+INSERT INTO Product VALUES(1,'Computers');
